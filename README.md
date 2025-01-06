@@ -240,3 +240,10 @@ Areas for improvement:
 "date_of_expiry": "14 Apr 2027"
 }
 ```
+
+### Results
+
+![output](https://github.com/user-attachments/assets/5de22fa1-c2c7-49fa-aca6-134d0052367e)
+
+
+
