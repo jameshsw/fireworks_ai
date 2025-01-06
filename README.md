@@ -232,16 +232,16 @@ Areas for improvement:
 
 ```json
 {
-"document_type": "PASSPORT",
-"passport_number": "963545637",
-"country_code": "USA",
-"last_name": "JOHN",
-"first_name": "DOE",
-"nationality": "USA",
-"date_of_birth": "15 Mar 1996",
-"sex": "M",
-"date_of_issue": "14 Apr 2017",
-"date_of_expiry": "14 Apr 2027"
+   "document_type": "PASSPORT",
+   "passport_number": "963545637",
+   "country_code": "USA",
+   "last_name": "JOHN",
+   "first_name": "DOE",
+   "nationality": "USA",
+   "date_of_birth": "15 Mar 1996",
+   "sex": "M",
+   "date_of_issue": "14 Apr 2017",
+   "date_of_expiry": "14 Apr 2027"
 }
 ```
 
