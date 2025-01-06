@@ -165,20 +165,24 @@ graph TD
 
 ## 7. Code Example
 
-```python
 Key implementation snippet from extract.py
+
+```python
 def process_image(image_path):
-# Document type identification
-type_response = fireworks.client.ChatCompletion.create(...)
-doc_type = type_response.choices[0].message.content.strip()
-# Information extraction based on document type
-if doc_type == "DRIVERS_LICENSE":
-# Extract driver's license fields
-elif doc_type == "PASSPORT":
-# Extract passport fields
-# Data cleaning and structuring
-cleaned_response = clean_json_response(...)
-extracted_info = json.loads(cleaned_response)
+
+   # Document type identification
+   type_response = fireworks.client.ChatCompletion.create(...)
+   doc_type = type_response.choices[0].message.content.strip()
+
+   # Information extraction based on document type
+   if doc_type == "DRIVERS_LICENSE":
+      # Extract driver's license fields
+   elif doc_type == "PASSPORT":
+      # Extract passport fields
+
+   # Data cleaning and structuring
+   cleaned_response = clean_json_response(...)
+   extracted_info = json.loads(cleaned_response)
 ```
 
 
